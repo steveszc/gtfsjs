@@ -2,7 +2,7 @@
   "name": "gtfsjs",
   "version": "0.0.1",
   "scripts": {
-    "start": "denali server",
+    "start": "node -v && denali server",
     "test": "denali test"
   },
   "private": true,

@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node -v && denali server",
-    "test": "denali test"
+    "test": "denali test",
+    "postinstall": "denali build"
   },
   "private": true,
   "engines": {
